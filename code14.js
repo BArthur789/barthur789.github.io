@@ -125,7 +125,7 @@ function find_range(positions)
 function initJSON()
 {
     var request = new  XMLHttpRequest();
-    request.open("GET", "teapot.json");
+    request.open("GET", "https://raw.githubusercontent.com/BArthur789/barthur789.github.io/master/teapot.json");
     request.onreadystatechange =
       function () {
           if (request.readyState == 4) {
